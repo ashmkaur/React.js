@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Inputbox } from './components/index'
+import  {Inputbox}  from './components/index'
 import useCurrencyInfo from './hooks/useCurrencyInfo'
 
 function App() {
@@ -22,8 +22,8 @@ function App() {
   }
 
   return (
-    <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat'
-    style={{backgroundImage: `url('https://i.pinimg.com/564x/a4/e8/ec/a4e8ec629a520b2ef8c8865a1b075bbf.jpg')`,}}>
+    <div className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat overflow-hidden'
+    style={{backgroundImage: `url('https://i.pinimg.com/564x/a4/e8/ec/a4e8ec629a520b2ef8c8865a1b075bbf.jpg')`}}>
       <div className='w-10/12 h-40 bg-green-900 text-white flex justify-center items-center text-2xl gap-5 rounded-md'>
       <div className='w-3/12 h-1/2 text-white flex justify-center items-center font-bold font-poppins text-6xl px-6'>Currency Convertor</div>
       <div className='w-9/12 h-full bg-slate-300'
