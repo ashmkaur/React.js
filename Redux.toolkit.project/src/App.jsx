@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className='text-3xl font-bold'>Huhhaaaaa punjabi aage oyeeeeee</div>
+      <div className='text-5xl font-bold'>My Todos</div>
       <AddTodo/>
       <Todos/>
 

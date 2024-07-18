@@ -27,9 +27,15 @@ redux(library) is different react-redux(implementation),
 
 React- toolkit--> never mutate your state
 
+Reducers-- function
+ans these are made in Slices
+
 1. Store banaao--> Application of singh truth
 2. features--> slices
-% namr, initial state, reducer list=
+% name, initial state, reducer list=
 objects->functions here(state,action) // no ... problem
+
+// State-- abhi what is the initial state?
+// Action-- kujj len lai(Jo usert bhej rya)
 
 components--> select use Dispatch
